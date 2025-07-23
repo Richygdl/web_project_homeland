@@ -1,0 +1,208 @@
+/* ============================= */
+/* BASE: Reglas preexistentes para escritorio */
+/* ============================= */
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 148px;
+  margin-right: 302px;
+  margin-bottom: 132px;
+}
+
+.intro__title {
+  font-size: 54px;
+  line-height: 58px;
+  margin-bottom: 40px;
+  margin-top: 92px;
+  font-family: "Inter-black", sans-serif;
+}
+
+.intro__quote {
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 10px;
+  font-family: "Inter-regular", sans-serif;
+}
+
+.intro__author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+  line-height: 34px;
+  margin-right: 200px;
+  width: 100%;
+  font-family: "Inter-regular", sans-serif;
+}
+
+.intro__text {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 163%;
+  font-family: "Inter-regular", sans-serif;
+}
+
+/* ============================= */
+/* Cambios adaptativos para tablets (<= 1024px) */
+/* ============================= */
+@media (max-width: 1024px) {
+  .intro {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 64px;
+  }
+  .intro__title {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 28px;
+    margin-top: 48px;
+  }
+  .intro__quote {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+  .intro__author {
+    font-size: 20px;
+    line-height: 28px;
+    margin-right: 40px;
+  }
+  .intro__text {
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom: 20px;
+  }
+}
+
+/* ============================= */
+/* Cambios adaptativos para móviles (<= 544px) */
+/* ============================= */
+@media (max-width: 544px) {
+  .intro {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 32px;
+    max-width: 100%;
+  }
+  .intro__title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    margin-top: 32px;
+  }
+  .intro__quote {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+  .intro__author {
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 0;
+  }
+  .intro__text {
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 16px;
+  }
+}
+
+.intro__title {
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  margin-top: 32px;
+  font-family: "Inter-black", sans-serif;
+}
+
+.intro__quote {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  font-family: "Inter-regular", sans-serif;
+}
+
+.intro__author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 0;
+  width: 100%;
+  font-family: "Inter-regular", sans-serif;
+}
+
+.intro__text {
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 150%;
+  font-family: "Inter-regular", sans-serif;
+}
+
+/* ============================= */
+/* Cambios adaptativos para >= 544px */
+/* ============================= */
+
+/* >= 544px: tablets y móviles grandes */
+@media (min-width: 544px) {
+  .intro {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 64px;
+  }
+  .intro__title {
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 28px;
+    margin-top: 48px;
+  }
+  .intro__quote {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+  .intro__author {
+    font-size: 20px;
+    line-height: 28px;
+    margin-right: 40px;
+  }
+  .intro__text {
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom: 20px;
+  }
+}
+
+/* ============================= */
+/* Cambios adaptativos para >= 1024px (REGLAS PREEXISTENTES) */
+/* ============================= */
+
+/* >= 1024px: escritorio */
+@media (min-width: 1024px) {
+  .intro {
+    margin-left: 148px;
+    margin-right: 302px;
+    margin-bottom: 132px;
+  }
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    margin-bottom: 40px;
+    margin-top: 92px;
+  }
+  .intro__quote {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+  .intro__author {
+    font-size: 24px;
+    line-height: 34px;
+    margin-right: 200px;
+  }
+  .intro__text {
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 24px;
+  }
+}
