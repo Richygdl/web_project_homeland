@@ -1,6 +1,7 @@
 .page {
   margin: 0;
   max-width: clamp(320px, 100vw, 1280px);
+  min-width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
