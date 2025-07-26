@@ -1,4 +1,10 @@
-Tripleten web_project_homeland
-Este sitio web es un ejercicio en la creación de sitios web responsivos
-La tecnología que permite que los sitios web sean responsivos se llama Diseño Web Adaptable o Diseño Responsivo
+Proyecto 5: Tripleten web project homeland
+Página Web para la galería de arte de TripleTen, donde el equipo que forma parte de TripleTen comparte una obra sobre su tierra natal. La página utiliza HTML y CSS.
+
+HTML5 semántico
+Flexbox
+Posicionamiento
+Metodología BEM
+Diseño Responsive
+
 https://richygdl.github.io/web_project_homeland/index.html
