@@ -21,3 +21,9 @@
   object-position: center;
   filter: grayscale();
 }
+
+@media screen and (max-width: 320px) {
+  .page {
+    height: auto;
+  }
+}
