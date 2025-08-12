@@ -1,4 +1,4 @@
-.photo__grid {
+.photo-grid {
   max-width: clamp(288px, 92.5vw, 1184px);
   margin-left: clamp(16px, 3.35vw, 43px);
   margin-right: clamp(16px, 4.14vw, 53px);
@@ -9,14 +9,14 @@
   overflow: hidden;
 }
 
-.photo__grid-item {
+.photo-grid__item {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
 
-.photo__grid-item img {
+.photo-grid__image {
   width: 100%;
   height: 100%;
   display: block;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .photo__grid {
+  .photo-grid {
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(4, 264px);
     max-width: 720px;
@@ -33,7 +33,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .photo__grid {
+  .photo-grid {
     row-gap: 12px;
     grid-template-columns: 288px;
     grid-template-rows: repeat(8, 216px);
