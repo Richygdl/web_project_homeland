@@ -1,6 +1,8 @@
 .page {
+  height: auto;
   margin: 0;
-  max-width: clamp(320px, 100vw, 1280px);
+  max-width: 1280px;
+  width: 100%;
   min-width: 320px;
   display: flex;
   flex-direction: column;
@@ -15,15 +17,28 @@
 }
 
 .page__image {
-  max-width: clamp(320px, 76.87vw, 984px);
+  max-width: 984px;
   aspect-ratio: 8 / 5;
   object-fit: cover;
   object-position: center;
   filter: grayscale();
+  width: 100%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1280px) {
   .page {
-    height: auto;
+    max-width: 768px;
+  }
+  .page__image {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 320px;
+  }
+  .page__image {
+    max-width: 320px;
   }
 }
