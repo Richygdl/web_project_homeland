@@ -1,0 +1,15 @@
+.place__artist-names {
+  max-width: 454px;
+  font-size: 18px;
+  margin: 8px 0 0 0;
+}
+@media screen and (max-width: 767px) {
+  .place__artist-names {
+    grid-column: 1 / -1 !important;
+    grid-row: auto !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}
