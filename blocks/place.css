@@ -20,9 +20,9 @@
 }
 @media screen and (max-width: 767px) {
   .place {
-    max-width: 288px !important;
-    grid-template-columns: 1fr !important;
+    max-width: 288px;
+    grid-template-columns: 1fr;
     grid-template-rows: 65px 89px 320px auto;
-    margin: 0 auto 40px auto !important;
+    margin: 0 auto 40px auto;
   }
 }
